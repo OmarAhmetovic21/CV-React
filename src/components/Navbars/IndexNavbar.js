@@ -70,25 +70,25 @@ function IndexNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink href="mailto:omarahmetovic19@gmail.com" target="_blank" id="twitter-tooltip">
-                  <h5><i class="fa fa-envelope"></i></h5>
+                  <h5><i class='fa fa-envelope'></i></h5>
                   <p className="d-lg-none d-xl-none">Email</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="tel:061651756" target="_blank" id="twitter-tooltip">
-                  <h5><i class="fa fa-phone"></i></h5>
+                <NavLink href="tel:061651756" target="_blank">
+                  <h5><i class='fas fa-phone'></i></h5>
                   <p className="d-lg-none d-xl-none">Phone</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/OmarAhmetovic21" target="_blank" id="twitter-tooltip">
-                  <h5><i class="fa-brands fa-github" style={{bacgroundColor: "white"}}></i></h5>
+                  <h5><i class='fab fa-github'></i></h5>
                   <p className="d-lg-none d-xl-none">Github</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="mailto:omarahmetovic19@gmail.com" target="_blank" id="twitter-tooltip">
-                  <h5><i class="fa fa-envelope"></i></h5>
+                  <h5><i class='fa fa-envelope'></i></h5>
                   <p className="d-lg-none d-xl-none">Email</p>
                 </NavLink>
               </NavItem>
