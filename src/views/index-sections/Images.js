@@ -10,12 +10,12 @@ function Images() {
     <>
       <div className="section section-images">
         <Container>
-          <Row>
+          <Row mt="5">
             <Col md="12">
               <div className="hero-images-container">
                 <img
                   alt="..."
-                  src={require("assets/img/hero-image-1.png")}
+                  src={require("assets/img/Maturska kopija.jpg")}
                 ></img>
               </div>
               <div className="hero-images-container-1">

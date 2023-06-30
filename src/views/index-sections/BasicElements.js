@@ -51,40 +51,35 @@ function BasicElements() {
     <>
       <div className="section section-basic" id="basic-elements">
         <Container>
-          <h3 className="title">Basic Elements</h3>
-          <h4>Buttons</h4>
-          <p className="category">Pick your style</p>
+          <h3 className="title">About me</h3>
           <Row>
-            <Col md="10">
-              <Button color="info" type="button">
-                Default
-              </Button>
-              <Button className="btn-round" color="info" type="button">
-                Round
-              </Button>
-              <Button className="btn-round" color="info" type="button">
-                <i className="now-ui-icons ui-2_favourite-28"></i>
-                With Icon
-              </Button>
-              <Button className="btn-icon btn-round" color="info" type="button">
-                <i className="now-ui-icons ui-2_favourite-28"></i>
-              </Button>
-              <Button className="btn-round" color="info" outline type="button">
-                Outline
-              </Button>
+            <Col md="5">
+            <img style={{borderRadius: "50%", maxHeight: "80%"}} alt="..." src={require("assets/img/Maturska kopija.jpg")}></img>
+            
+            </Col>
+            <Col md="5">
+            <p>
+                    <b>My name is Omar Ahmetović. I am 22 years old. I live in Sarajevo, Bosnia and Herzegovina.
+                    I am a 4'th year student at International University of Sarajevo. I am hard working, determined,
+                    and I enjoy programming. My objectives are increasing my knowledge in programming fields, 
+                    especially web application development.  Always looking forward to the challenges of learning 
+                    new technologies and be a part of a huge change in the world.</b></p>
             </Col>
           </Row>
-          <p className="category">Pick your size</p>
+
+          <h3 className="title">Education</h3>
           <Row>
-            <Col md="10">
-              <Button color="info" size="sm">
-                Small
-              </Button>
-              <Button color="info">Regular</Button>
-              <Button color="info" size="lg">
-                Large
-              </Button>
-            </Col>
+          <Col md="5">
+            <img style={{borderRadius: "25%", maxHeight: "80%"}} alt="..." src={require("assets/img/Edukacija.jpg")}></img>
+            
+          </Col>
+          <Col md="6">
+            <ul class="mt-3" style={{lineHeight:"4em,", listStyle:"none"}}>
+                <li><b>Primary School:</b>  Osnovna škola "El-Manar"</li>
+                <li><b>High School:</b> Četvrta Gimnazija Ilidža</li>
+                <li><b>Bachelor of Software Engineering:</b> International University of Sarajevo</li>
+             </ul>
+          </Col>
           </Row>
           <p className="category">Pick your color</p>
           <Row>

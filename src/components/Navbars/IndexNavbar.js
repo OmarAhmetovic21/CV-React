@@ -75,7 +75,7 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="tel:061651756" target="_blank">
+                <NavLink href="tel:061651756" target="_blank" id="twitter-tooltip">
                   <h5><i class='fas fa-phone'></i></h5>
                   <p className="d-lg-none d-xl-none">Phone</p>
                 </NavLink>
@@ -87,8 +87,9 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="mailto:omarahmetovic19@gmail.com" target="_blank" id="twitter-tooltip">
-                  <h5><i class='fa fa-envelope'></i></h5>
+                <NavLink href="https://www.linkedin.com/in/omar-ahmetovi%C4%87-51010a238?fbclid=IwAR1u104iyYSxJHa2OEseivRIFB_eh-nCCLYAOoqT2aurmdg-fPgtAFOKqIE"
+                 target="_blank" id="twitter-tooltip">
+                  <h5><i class='fab fa-linkedin'></i></h5>
                   <p className="d-lg-none d-xl-none">Email</p>
                 </NavLink>
               </NavItem>
