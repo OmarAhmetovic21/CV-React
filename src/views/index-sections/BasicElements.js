@@ -51,7 +51,7 @@ function BasicElements() {
     <>
       <div className="section section-basic" id="basic-elements">
         <Container>
-          <h3 className="title">About me</h3>
+          <h1 className="title text-center">About me</h1>
           <Row>
             <Col md="5">
             <img style={{borderRadius: "50%", maxHeight: "80%"}} alt="..." src={require("assets/img/Maturska kopija.jpg")}></img>
@@ -67,7 +67,7 @@ function BasicElements() {
             </Col>
           </Row>
 
-          <h3 className="title">Education</h3>
+          <h1 className="title text-center">Education</h1>
           <Row>
           <Col md="5">
             <img style={{borderRadius: "25%", maxHeight: "80%"}} alt="..." src={require("assets/img/Edukacija.jpg")}></img>
@@ -79,6 +79,30 @@ function BasicElements() {
                 <li><b>High School:</b> Četvrta Gimnazija Ilidža</li>
                 <li><b>Bachelor of Software Engineering:</b> International University of Sarajevo</li>
              </ul>
+          </Col>
+          </Row>
+          <h1 className="title text-center">Skills</h1>
+          <Row>
+          <Col md="5">
+            <img style={{borderRadius: "25%", maxHeight: "80%"}} alt="..." src={require("assets/img/Skills.jpg")}></img>
+            
+          </Col>
+          <Col md="6">
+            
+             <ul class="mt-3" style={{lineHeight:"4em,", listStyle:"none"}}>
+                    <li><h4><b>Programming skills:</b></h4></li>
+                    <li> C++</li>
+                    <li> Java</li>
+                    <li> Python</li>
+                    <li> PHP</li>
+                    <li> React</li>
+                    <li> Angular</li>
+                    <li><h4><b>Other skills:</b></h4></li>
+                    <li> English</li>
+                    <li> Turkish</li>
+                    <li> German</li>
+                    <li> Arabic</li>
+                </ul>
           </Col>
           </Row>
           <p className="category">Pick your color</p>
