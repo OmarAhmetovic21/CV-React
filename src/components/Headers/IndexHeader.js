@@ -34,7 +34,7 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-                    <h3>I would love to change the world but they won't 
+                    <h3>I would love to change the world but they won't <br/>
                          give me &lt; /	&gt; the  
                          source code &lt;  /	&gt;
                     </h3>

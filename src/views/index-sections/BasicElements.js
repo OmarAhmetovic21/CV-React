@@ -20,7 +20,7 @@ function BasicElements() {
     <>
       <div className="section section-basic" id="basic-elements">
         <Container>
-          <h1 className="title text-center">About me</h1>
+          <h1 className="text-center" style={{marginTop:"10%"}}>About me</h1>
           <Row>
             <Col md="5">
             <img style={{borderRadius: "50%", maxHeight: "80%"}} alt="..." src={require("assets/img/Maturska kopija.jpg")}></img>
@@ -36,7 +36,7 @@ function BasicElements() {
             </Col>
           </Row>
 
-          <h1 className="title text-center">Education</h1>
+          <h1 className="text-center" style={{marginTop:"5%"}}>Education</h1>
           <Row>
           <Col md="5">
             <img style={{borderRadius: "25%", maxHeight: "80%"}} alt="..." src={require("assets/img/Edukacija.jpg")}></img>
@@ -50,7 +50,7 @@ function BasicElements() {
              </ul>
           </Col>
           </Row>
-          <h1 className="title text-center">Skills</h1>
+          <h1 className="text-center" style={{marginTop:"5%"}}>Skills</h1>
           <Row>
           <Col md="5">
             <img style={{borderRadius: "25%", maxHeight: "80%"}} alt="..." src={require("assets/img/Skills.jpg")}></img>
@@ -74,9 +74,10 @@ function BasicElements() {
                 </ul>
           </Col>
           </Row>
-          <h1 className="title text-center">Projects</h1>
+          <h1 className="text-center" style={{marginTop:"5%"}}>Projects</h1>
           <Row>
-          <Col md="6" className="center">
+          <Col className="text-center">
+            <div style={{alignItems:"center"}}>
             <table class="table table-bordered align-center table-responsive-sm">
                  <tr>
                     <th>Name of project</th>
@@ -109,6 +110,7 @@ function BasicElements() {
                         <td>Angular</td>
                     </tr>
             </table>
+            </div>
           </Col>
           </Row>
           
