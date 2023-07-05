@@ -120,25 +120,25 @@ function BasicElements() {
                 </tr>
                 <tr>
                         <td>Karate Klub Respect Website</td>
-                        <td><a href="https://karateklubrespect.ba/index" target="_blank"> 
+                        <td><a style={{color:"#2ca8ff"}} href="https://karateklubrespect.ba/index" target="_blank"> 
                         https://karateklubrespect.ba/index</a></td>
-                        <td><a href="https://github.com/srepuh/kkrespect" target="_blank">
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/srepuh/kkrespect" target="_blank">
                         https://github.com/srepuh/kkrespect</a></td>
                         <td>Angular <br /> Node js <br />  PostgreSQL</td>
                     </tr>
                     <tr>
                         <td>Hairdresser Appointment Booking Application</td>
                         <td></td>
-                        <td><a href="https://github.com/OmarAhmetovic21/barberShop-fullProject" target="_blank">
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/barberShop-fullProject" target="_blank">
                         https://github.com/OmarAhmetovic21/barberShop-fullProject</a></td>
                         <td>React <br /> Node js <br />MongoDB</td>
                     </tr>
 
                     <tr>
                         <td>Lufthansa Project</td>
-                        <td><a href="https://lufthansa-application.herokuapp.com/" target="_blank">
+                        <td><a style={{color:"#2ca8ff"}} href="https://lufthansa-application.herokuapp.com/" target="_blank">
                             https://lufthansa-application.herokuapp.com/</a></td>
-                        <td><a href="https://github.com/OmarAhmetovic21/Lufthansa" target="_blank">
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/Lufthansa" target="_blank">
                             https://github.com/OmarAhmetovic21/Lufthansa</a></td>
                         <td>Angular</td>
                     </tr>
