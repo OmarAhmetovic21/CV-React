@@ -1,5 +1,7 @@
 /*eslint-disable*/
 import React from "react";
+import { deviceDetect } from "react-device-detect";
+import { BrowserView, MobileView } from 'react-device-detect';
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -34,10 +36,18 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
+            <BrowserView>
                     <h3>I would love to change the world but they won't <br/>
                          give me &lt; /	&gt; the  
                          source code &lt;  /	&gt;
                     </h3>
+              </BrowserView>
+              <MobileView>
+              <h3>I would love to change the world but they won't <br/>
+                         give me <br/> &lt; /	&gt; the  
+                         source code &lt;  /	&gt;
+                    </h3>
+              </MobileView>
           </div>
           
         </Container>
