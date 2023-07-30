@@ -31,17 +31,20 @@ function BasicElements() {
             <img style={{borderRadius: "50%", maxHeight: "80%", alignItems:"center"}} alt="..." src={require("assets/img/Maturska kopija.jpg")}></img>
             </MobileView>
             </Col>
-            <Col md="5">
+            <Col>
               <BrowserView>
-                   <p>
-                    <b>My name is Omar Ahmetović. I am 22 years old. I live in Sarajevo, Bosnia and Herzegovina.
-                    I am a 4'th year student at International University of Sarajevo. I am hard working, determined,
-                    and I enjoy programming. My objectives are increasing my knowledge in programming fields, 
-                    especially web application development.  Always looking forward to the challenges of learning 
-                    new technologies and be a part of a huge change in the world.</b></p>
+                   <p md="5">
+                    <b>My name is Omar Ahmetović. I am 23 years old. I live in Sarajevo, Bosnia and Herzegovina and 
+                      I am a Bachelor of Software Engineering and currently, I am in the process of claiming my diploma. 
+                      I am hard working, determined, and I enjoy programming. I have experience with modern frontend 
+                      frameworks such as Angular and React, good problem solving skills, excellent skills in team work 
+                      and collaboration, experience with HTML, CSS, JavaScript and TypeScript and excelent communication 
+                      in English language. My objectives are increasing my knowledge in programming fields, especially web
+                      application development. Always looking forward to the challenges of learning new technologies and 
+                      be a part of a huge change in the world.</b></p>
                 </BrowserView>
                 <MobileView>
-                   <p style={{marginTop:"5%"}}>
+                   <p md="7" style={{marginTop:"5%"}}>
                     <b>My name is Omar Ahmetović. I am 22 years old. I live in Sarajevo, Bosnia and Herzegovina.
                     I am a 4'th year student at International University of Sarajevo. I am hard working, determined,
                     and I enjoy programming. My objectives are increasing my knowledge in programming fields, 
@@ -66,7 +69,7 @@ function BasicElements() {
             <ul class="mt-3" style={{lineHeight:"4em,", listStyle:"none"}}>
                 <li><b>Primary School:</b>  Osnovna škola "El-Manar"</li>
                 <li><b>High School:</b> Četvrta Gimnazija Ilidža</li>
-                <li><b>Bachelor of Software Engineering:</b> International University of Sarajevo</li>
+                <li><b>Bachelor of Science in Software Engineering:</b>  International University of Sarajevo (4 year Education)</li>
              </ul>
              </BrowserView>
              <MobileView>
