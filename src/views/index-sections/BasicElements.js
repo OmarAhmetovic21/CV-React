@@ -145,6 +145,34 @@ function BasicElements() {
                             https://github.com/OmarAhmetovic21/Lufthansa</a></td>
                         <td>Angular</td>
                     </tr>
+                    <tr>
+                        <td>Car Maintenance Shop Website</td>
+                        <td></td>
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/Graduation-Project-Frontend"
+                        target="_blank"> https://github.com/OmarAhmetovic21/Graduation-Project-Frontend</a></td>
+                        <td>Angular <br/>PHP <br/>MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>Lufthansa Project React</td>
+                        <td></td>
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/Lufthansa-React"
+                        target="_blank"> https://github.com/OmarAhmetovic21/Lufthansa-React</a></td>
+                        <td>React</td>
+                    </tr>
+                    <tr>
+                        <td>CV Angular</td>
+                        <td></td>
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/CV"
+                        target="_blank"> https://github.com/OmarAhmetovic21/CV</a></td>
+                        <td>Angular</td>
+                    </tr>
+                    <tr>
+                        <td>CV React</td>
+                        <td></td>
+                        <td><a style={{color:"#2ca8ff"}} href="https://github.com/OmarAhmetovic21/CV-React"
+                        target="_blank"> https://github.com/OmarAhmetovic21/CV-React</a></td>
+                        <td>React</td>
+                    </tr>
             </table>
             </div>
           </Col>
